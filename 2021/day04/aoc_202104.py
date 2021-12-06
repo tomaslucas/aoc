@@ -72,9 +72,9 @@ def bingo2(dblock, first_line):
                     if number == dblock[b][l][e]:
                         dblock[b][l][e] = "x"
                         if row_with_5x(dblock[b], l) or col_with_5x(dblock[b], e):
-                            rep_carts.append(b)
-                            if b in set(rep_carts):
+                            if b not in rep_carts:
                                 number_carts += 1
+                            rep_carts.append(b)
                             if number_carts == len(dblock):
                                 return b, l, number, dblock
 
