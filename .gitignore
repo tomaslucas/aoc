@@ -2,3 +2,7 @@
 **/data*
 *__pycache__*
 **.vscode*
+token
+crea_imagen_aoc.txt
+lanza_aoc.txt
+**.pytest*

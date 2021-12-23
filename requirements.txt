@@ -1,0 +1,8 @@
+advent-of-code-data
+pytest
+parse
+numpy
+colorama
+pandas
+notebook
+black
